@@ -1,7 +1,7 @@
 {
   "name": "portafolioreactvite",
   "private": true,
-  "homepages":"https://brandongs22b.github.io/Repositorio_Brandon/",
+  "homepage": "https://BrandonGS22b.github.io/Repositorio_Brandon/",
 
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "dev": "vite",
 
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0", 
     "preview": "vite preview"
