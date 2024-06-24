@@ -1,7 +1,7 @@
 import React from 'react';
-import profilepic from '../assets/profilepic.png';
+import profilepic0 from '../assets/profilepic0.png';
 import { TypeAnimation } from 'react-type-animation';
-
+import ShinyEffect from './ShinyEffect';
 const Hero = () => {
   return (
     <div className='grid md:grid-cols-2 place-items-center max-w-[1250px] mx-auto bg-white mb-8 md:mb-32 mt-14'>
@@ -39,7 +39,14 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <img src={profilepic} className='w-[300px] md:w-[500px]' alt='Profile' />
+            <div className='absolute inset-0 overflow-hidden md:overflow-visible'> 
+              <div className='hidden md:block'>
+                <ShinyEffect left={100} top={200} size={1400} />
+              </div>
+            <ShinyEffect left={-100} top={0} size={1200} />
+            </div>
+
+      <img src={profilepic0} className='w-[300px] md:w-[500px]' alt='Profile' />
     </div>
   );
 }

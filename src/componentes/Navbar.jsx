@@ -29,7 +29,7 @@ const Navbar = () => {
                 </li>
 
                 <li className='relative group'>
-                    <Link to="Contacto" smooth={true} offset={50} duration={500}>
+                    <Link to="contact" smooth={true} offset={50} duration={500}>
                         Contacto
                         <span className='absolute bottom-0 left-0 w-full h-1 bg-sky-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out'></span>
                     </Link>
