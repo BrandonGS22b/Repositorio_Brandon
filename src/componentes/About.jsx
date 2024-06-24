@@ -35,14 +35,11 @@ const About = () => {
         <p className='text-gray-300 mb-4'>Me apasiona el desarrollo web con 5 años de experiencia. Tengo un historial probado de crear visualmente
         </p>
         <div className='md:flex flex-wrap gap-4 text-4xl justify-center hidden'>
-          <DiHtml5 className='text-orange-600' />
-          <DiCss3 className='text-blue-600' />
-          <DiSass className='text-pink-600' />
           <DiJavascript1 className='text-purple-600' />
           <DiReact className='text-yellow-600' />
-          <DiBootstrap className='text-blue-600' />
           <DiReact className='text-green-600' />
           <DiNodejsSmall className='text-red-600' />
+          <DiMongodb className='text-green-600' />
         </div>
       </div>
 
