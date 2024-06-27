@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 import ShinyEffect from './ShinyEffect';
 const Hero = () => {
   return (
-    <div className='grid md:grid-cols-2 place-items-center max-w-[1250px] mx-auto bg-white mb-8 md:mb-32 mt-14'>
+    <div className='grid md:grid-cols-2 place-items-center max-w-[1250px] mx-auto bg-white  bg-opacity-20 mb-8 md:mb-32 mt-14'>
       <div className='max-w-[800px]'>
         <p className='text-gray-900 md:text-6xl text-3xl tracking-tight'>
           HEY, I AM <br/>
