@@ -1,20 +1,38 @@
 import React from 'react';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillFacebook,AiFillInstagram } from 'react-icons/ai';
 
 const Contact = () => {
   return (
     <div className='px-6 max-w-[1000px] mx-auto glass grid md:grid-cols-2 place-items-center' id='contact'>
       <ul className='my-auto pr-6'>
+      <li className='flex'>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <AiFillFacebook className='w-[70px] h-auto text-gray-300'/>
+         </a>
+           <div className='m-5'>
+              <h3 className='text-lg font-bold text-gray-200'>Working Hours</h3>
+               <p className='text-gray-400'>Mo-Fri: 8am-5pm</p>
+                <p className='text-gray-400'>SoSat: xxx</p>
+            </div>
+      </li>
+
+
         <li className='flex'>
-          <AiFillLinkedin className='w-[70px] h-auto text-gray-300'/>
-          <div>
-            <h3 className='text-lg font-bold text-gray-200'>Contact</h3>
-            <p className='text-gray-400'>Mobile: xxx</p>
-            <p className='text-gray-400'>Email: </p>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <AiFillInstagram className='w-[70px] h-auto text-gray-300'/>
+          </a>
+          <div className='m-5'>
+            <h3 className='text-lg font-bold text-gray-200'>Working Hours</h3>
+            <p className='text-gray-400'>Mo-Fri: 8am-5pm</p>
+            <p className='text-gray-400'>SoSat: xxx</p>
           </div>
         </li>
+
+
         <li className='flex'>
-          <AiFillLinkedin className='w-[70px] h-auto text-gray-300'/>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <AiFillFacebook className='w-[70px] h-auto text-gray-300'/>
+          </a>
           <div className='m-5'>
             <h3 className='text-lg font-bold text-gray-200'>Working Hours</h3>
             <p className='text-gray-400'>Mo-Fri: 8am-5pm</p>
