@@ -6,8 +6,8 @@ const Contact = () => {
     <div className='px-6 max-w-[1000px] mx-auto glass grid md:grid-cols-2 place-items-center' id='contact'>
       <ul className='my-auto pr-6'>
       <li className='flex'>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <AiFillFacebook className='w-[70px] h-auto text-gray-300'/>
+        <a href="https://www.linkedin.com/in/brandon-garcía-suarez-9064ab183/" target="_blank" rel="noopener noreferrer">
+          <AiFillLinkedin className='w-[70px] h-auto text-gray-300'/>
          </a>
            <div className='m-5'>
               <h3 className='text-lg font-bold text-gray-200'>Working Hours</h3>
@@ -18,7 +18,7 @@ const Contact = () => {
 
 
         <li className='flex'>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/brandohfx/" target="_blank" rel="noopener noreferrer">
           <AiFillInstagram className='w-[70px] h-auto text-gray-300'/>
           </a>
           <div className='m-5'>
@@ -30,7 +30,7 @@ const Contact = () => {
 
 
         <li className='flex'>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/brandonsuarez.garxia/" target="_blank" rel="noopener noreferrer">
           <AiFillFacebook className='w-[70px] h-auto text-gray-300'/>
           </a>
           <div className='m-5'>
