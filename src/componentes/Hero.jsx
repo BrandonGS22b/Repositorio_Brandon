@@ -26,7 +26,7 @@ const Hero = () => {
         <h2 className='text-white'>Con 0+ years of experience</h2>
 
         <div className='flex flex-row gap-4 mb-4 md:mb-0'>
-   <a href='https://drive.google.com/uc?export=download&id=1qfUty0Yhv3166pwRoYFoG9Thrsf7ouhl'
+   <a href='https://drive.google.com/uc?export=download&id=12kqQ2gD7vNbsn8mCPQPlEb35oduO70md'
       className='flex items-center justify-center transform transition-transform hover:scale-105 hover:shadow-lg z-10 cursor-pointer font-bold text-gray-200 w-1/2 mt-6 p-2 bg-gradient-to-r from-[#50a7c7] via-[#1f7c8f] to-[#3d6ca4] rounded-xl'>
       Download CV
     </a>
