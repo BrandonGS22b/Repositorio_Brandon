@@ -5,6 +5,7 @@ import project3 from '../assets/project3.png';
 import project4 from '../assets/project4.png';
 import project5 from '../assets/project5.png';
 import project6 from '../assets/project6.png';
+import project7 from '../assets/project7.png';
 import { AiFillGithub } from 'react-icons/ai';
 import ShinyEffect from './ShinyEffect';
 
@@ -42,7 +43,7 @@ const projects = [
   {
     img: project4,
     title: "Project #4",
-    description: "UI frontend development using React",
+    description: "UI frontend development using React development",
     links: {
       site: "https://github.com/",
       github: "https://github.com",
@@ -50,25 +51,16 @@ const projects = [
     }
   },
   {
-    img: project5,
+    img: project7,
     title: "Project #5",
     description: "UI frontend development using React",
     links: {
-      site: "https://github.com/",
-      github: "https://github.com",
+      site: "https://github.com/BrandonGS22b/RepositoriosUsuarios",
+      github: "https://github.com/BrandonGS22b/RepositoriosUsuarios",
       facebook: "https://www.facebook.com",
     }
   },
-  {
-    img: project6,
-    title: "Project #6",
-    description: "UI frontend development using React",
-    links: {
-      site: "https://github.com/",
-      github: "https://github.com",
-      facebook: "https://www.facebook.com",
-    }
-  },
+
 ];
 
 const Portfolio = () => {

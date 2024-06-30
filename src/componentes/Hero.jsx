@@ -23,7 +23,7 @@ const Hero = () => {
             className='font-bold italic'
           />
         </p>
-        <h2 className='text-white'>Con 0+ years of experience</h2>
+        <h2 className='text-white'>Con 1+ years of experience</h2>
 
         <div className='flex flex-row gap-4 mb-4 md:mb-0'>
    <a href='https://drive.google.com/uc?export=download&id=12kqQ2gD7vNbsn8mCPQPlEb35oduO70md'

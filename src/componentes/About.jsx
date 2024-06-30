@@ -31,8 +31,11 @@ const About = () => {
       </div>
 
        <div className='p-6'>
-        <h2 className='text-gray-200 text-3xl font-bold mb-4'>Frontend experience</h2>
-        <p className='text-gray-300 mb-4'>Me apasiona el desarrollo web con 5 años de experiencia. Tengo un historial probado de crear visualmente
+        <h2 className='text-gray-200 text-3xl font-bold mb-4'>Backend Experience</h2>
+        <p className='text-gray-300 mb-4'>Con 1 año de experiencia en desarrollo backend, 
+          me apasiona crear soluciones robustas y escalables. 
+          Tengo un historial comprobado en la implementación de APIs eficientes, 
+          la gestión de bases de datos y la integración de servicios que mejoran la funcionalidad y la experiencia del usuario.
         </p>
         <div className='md:flex flex-wrap gap-4 text-4xl justify-center hidden'>
           <DiJavascript1 className='text-purple-600' />
@@ -48,8 +51,11 @@ const About = () => {
      
 
       <div className='p-6'>
-        <h2 className='text-gray-200 text-3xl font-bold mb-4'>Frontend experience</h2>
-        <p className='text-gray-300 mb-4'>Me apasiona el desarrollo web con 5 años de experiencia. Tengo un historial probado de crear visualmente
+        <h2 className='text-gray-200 text-3xl font-bold mb-4'>Frontend Experience</h2>
+        <p className='text-gray-300 mb-4'> Con un año de experiencia en desarrollo frontend, 
+          me dedico a crear interfaces de usuario atractivas y funcionales. 
+          Utilizo tecnologías modernas para asegurar que las aplicaciones sean intuitivas y visualmente impactantes,
+           mejorando la experiencia del usuario.
         </p>
         <div className='md:flex flex-wrap gap-4 text-4xl justify-center hidden'>
           <DiHtml5 className='text-orange-600' />
@@ -84,7 +90,9 @@ const About = () => {
 
       <div className='p-6'>
         <h2 className='text-gray-200 text-3xl font-bold mb-4'>Full stack experience</h2>
-        <p className='text-gray-300 mb-4'>Me apasiona el desarrollo web con 5 años de experiencia. Tengo un historial probado de crear visualmente
+        <p className='text-gray-300 mb-4'>Me apasiona el desarrollo web Fullstack con 1 año de experiencia. 
+          Tengo un historial probado de crear aplicaciones visualmente atractivas y altamente funcionales, 
+          desde la implementación de interfaces de usuario dinámicas hasta la gestión eficiente del backend y las bases de datos.
         </p>
         <div className='md:flex flex-wrap gap-4 text-4xl justify-center hidden'>
           <DiHtml5 className='text-orange-600' />
